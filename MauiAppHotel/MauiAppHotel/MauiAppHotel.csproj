@@ -57,9 +57,16 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiImage Remove="Resources\Images\krats.jpg" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <None Remove="Resources\Fonts\Kalam-Bold.ttf" />
 	  <None Remove="Resources\Fonts\Kalam-Light.ttf" />
 	  <None Remove="Resources\Fonts\Kalam-Regular.ttf" />
+	  <None Remove="Resources\Images\blackbir.png" />
+	  <None Remove="Resources\Images\krats.jpg" />
+	  <None Remove="Resources\Images\logokrat.png" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -73,6 +80,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\HospedagemContratada.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\Sobre.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
