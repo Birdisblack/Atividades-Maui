@@ -5,6 +5,13 @@
              Title="Cadastro de Eventos">
 
     <StackLayout Padding="10">
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+            <Frame WidthRequest="450" HeightRequest="352"  BackgroundColor="Transparent" Padding="0">
+                <Image Source="lpz.jpg" HorizontalOptions="Center" VerticalOptions="Center" Aspect="Fill" />
+            </Frame>
+        </StackLayout>
+
+
         <Label Text="Nome do Evento" />
         <Entry Text="{Binding Evento.Nome}" />
 
@@ -22,7 +29,7 @@
 
         <Label Text="Custo por Participante" />
         <Entry Text="{Binding Evento.CustoPorParticipante}" Keyboard="Numeric" />
-
+        
         <Button Text="Salvar" Command="{Binding SalvarCommand}" />
     </StackLayout>
 </ContentPage>
