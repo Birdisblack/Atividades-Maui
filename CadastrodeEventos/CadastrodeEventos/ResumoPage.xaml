@@ -1,0 +1,31 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CadastrodeEventos.ResumoPage"
+             Title="Resumo do Evento">
+
+    <StackLayout Padding="10">
+        <Label Text="Nome do Evento" />
+        <Label Text="{Binding Nome}" />
+
+        <Label Text="Data de Início" />
+        <Label Text="{Binding DataInicio}" />
+
+        <Label Text="Data de Término" />
+        <Label Text="{Binding DataTermino}" />
+
+        <Label Text="Número de Participantes" />
+        <Label Text="{Binding NumeroParticipantes}" />
+
+        <Label Text="Local do Evento" />
+        <Label Text="{Binding Local}" />
+
+        <Label Text="Custo por Participante" />
+        <Label Text="{Binding CustoPorParticipante}" />
+
+        <Label Text="Duração (dias)" />
+        <Label Text="{Binding Duracao}" />
+
+        <Label Text="Custo Total" />
+        <Label Text="{Binding CustoTotal}" />
+    </StackLayout>
+</ContentPage>
