@@ -16,10 +16,10 @@
         <Entry Text="{Binding Evento.Nome}" />
 
         <Label Text="Data de Início" />
-        <DatePicker Date="{Binding Evento.DataInicio}" />
+        <DatePicker Date="{Binding Evento.DataInicio}" Format="dd/MM/yyyy"/>
 
         <Label Text="Data de Término" />
-        <DatePicker Date="{Binding Evento.DataTermino}" />
+        <DatePicker Date="{Binding Evento.DataTermino}" Format="dd/MM/yyyy"/>
 
         <Label Text="Número de Participantes" />
         <Entry Text="{Binding Evento.NumeroParticipantes}" Keyboard="Numeric" />
